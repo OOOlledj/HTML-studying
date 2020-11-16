@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<title>
+	<meta charset="utf-8">
+	</title>
+	<h1>Images in HTML</h1>
+	<body>
+		<figure>
+		<img src='repair.jpg'
+			 alt='Photo of me, where i work with my car'
+			 width='400'
+			 height='500'
+			 title='I am working on the car'/>
+		<figcaption>Look at it, so many time spend on car</figcaption>
+		</figure>
+		<video src="chip.mp4" controls>
+			<p>Ваш браузер не поддерживает HTML5. Используйте
+				<a href="chip.mp4">ссылку на видео</a> для доступа.</p>
+		</video>
+		<video controls width='400' height='400'
+				autoplay loop muted
+				poster="gt4.jpg">
+			<source src="rabbit320.mp4" type="video/mp4">
+			<source src="rabbit320.webm" type="video/webm">
+			<track kind="subtitles" src="subtitles_en.vvt" srclang="en">
+			<p>Ваш браузер не подддерживает HTML5 видео. 
+				Вот <a href="rabbit320.mp4">ссылка на видео</a> взамен.</p>
+		</video>
+		<audio controls>
+			<source src="viper.mp3" type="audio/mp3">
+			<source src="viper.ogg" type="audio/ogg">
+			<p>Your browser doesn't support HTML5 audio.
+				Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+		</audio>			
+	</body>
+</html>
