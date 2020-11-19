@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Verdana, sans-serif; /* Семейство шрифтов */
+  font-size: 11pt; /* Размер основного шрифта в пунктах  */
+  background-color: #f0f0f0; /* Цвет фона веб-страницы */
+  color: #333; /* Цвет основного текста */ 
+}
+h1 {
+  color: #a52a2a; /* Цвет заголовка */
+  font-size: 24pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста */
+}
+p {
+  text-align: justify; /* Выравнивание по ширине */
+  margin-left: 60px; /* Отступ слева в пикселях */
+  margin-right: 10px; /* Отступ справа в пикселях */
+  border-left: 1px solid #999; /* Параметры линии слева */
+  border-bottom: 1px solid #999; /* Параметры линии снизу */
+  border-top: 4px solid #999;
+  border-right: 10px solid #aaaa11;
+  padding-left: 10px; /* Расстояние от линии слева до текста */
+  padding-bottom: 10px; /* Расстояние от линии снизу до текста */
+}
+.default a{color: maroon;border-style:solid;border-width:2px;}
+.addition-css {color:navy;margin-left:20px;padding-left:15px;}
+
+.subgost{font-weight:200;background-color:white;}
+.subgost .gost {
+    color: green; /* Цвет текста */
+    font-weight: bold; /* Жирное начертание */
+	background-color:black;
+   }
+.subgost .term span{
+    border-bottom: 3px dashed red; /* Подчёркивание под текстом */
+	font-size: 20px;
+   }
+
+.btn {
+    padding: .5rem 1rem; /* Поля */
+	margin-top:10px;
+    color: #fff; /* Цвет текста */
+    border-radius: .25rem; /* Радиус скругления */
+    border: none; /* Убираем рамку */
+   }
+.btn-success { 
+    background-color: #5cb85c; /* Цвет фона */
+   }
+.btn-info {
+    background-color: #5bc0de; /* Цвет фона */
+   }
+.btn-warning {
+    color: #292b2c; /* Цвет текста */
+    background-color: #f0ad4e; /* Цвет фона */
+   }
+#help1 {
+    position: absolute; /* Абсолютное позиционирование */
+    right: 10px; /* Положение элемента от правого края */
+    bottom: 10px; /* Положение от нижнего края */
+   }
+.help2 {
+    width: 200px; /* Ширина блока */
+    padding: 5px; /* Поля вокруг текста */
+    background: #f0f0f0; /* Цвет фона */ 
+   }
